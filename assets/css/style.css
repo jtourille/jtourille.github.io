@@ -1,0 +1,73 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.fa, .ai {
+    color:black;
+    padding-right:2px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+
+.title {
+    margin-top:12px;
+}
+
+address {
+    margin-bottom:10px;
+}
+
+.dt-teaching{
+    margin-top: 7px;
+    font-weight: normal;
+}
+
+.img-navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 7px 15px;
+  width: auto;
+}
+
+.margin-custom {
+    margin-bottom: 20px;
+}
+
+.bib-nb {
+    float:left;
+}
+.bib-content{
+    margin-left: 30px;
+}
+.bib-entry{
+    margin-bottom: 10px;
+}
+.bib-booktitle {
+    color: #8f682b;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.media img {
+    width:64px;
+}
+
+.site-footer {
+    border-top:1px solid #e8e8e8;
+    padding: 20px
+}

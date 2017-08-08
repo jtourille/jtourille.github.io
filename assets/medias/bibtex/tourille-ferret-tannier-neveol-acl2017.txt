@@ -1,0 +1,17 @@
+@InProceedings{tourille-EtAl:2017:Short,
+  author    = {Tourille, Julien  and  Ferret, Olivier  and  N\'{e}v\'{e}ol, Aur\'{e}lie  and  Tannier, Xavier},
+  title     = {Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers},
+  booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+  month     = {July},
+  year      = {2017},
+  address   = {Vancouver, Canada},
+  publisher = {Association for Computational Linguistics},
+  pages     = {224--230},
+  abstract  = {We present a neural architecture for containment relation identification
+	between medical events and/or temporal expressions. We experiment on a corpus
+	of de-identified clinical notes in English from the Mayo Clinic, namely the
+	THYME corpus. Our model achieves an F-measure of 0.613 and outperforms the best
+	result reported on this corpus to date.},
+  url       = {http://aclweb.org/anthology/P17-2035}
+}
+
