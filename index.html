@@ -47,55 +47,40 @@
 </head>
 
   <body data-spy="scroll" data-target="#topnav" data-offset="70">
-    <nav class="navbar navbar-default navbar-fixed-top no-jump" id="topnav">
+    <nav class="navbar sticky-top navbar-light bg-light navbar-expand-md" id="topnav">
     <div class="container">
+        <a class="navbar-brand" href="/">Julien Tourille website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Julien Tourille website</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <!--<li><a href="/">About</a></li>-->
-                <!--<li><a href="/blog.html">Blog</a></li>-->
-            </ul>
-
-            <a href="/assets/medias/cv/julien_tourille_cv_20170610.pdf" target="_blank" class="btn btn-primary navbar-btn btn-sm" role="button">Download CV</a>
-
-            <!--<p class="navbar-text">Last update: </p>-->
-
-            <span class="hidden-sm hidden-xs navbar-right">
-                <a href="https://www.limsi.fr/en/" target="_blank" class="navbar-brand img-navbar-brand">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a href="/assets/medias/cv/julien_tourille_cv_20170610.pdf" target="_blank" class="btn btn-info navbar-btn btn-sm mr-auto" role="button">Download CV</a>
+            <div class="d-none d-md-block">
+                <a href="https://www.limsi.fr/en/" target="_blank" class="navbar-logo">
                     <img src="/assets/img/limsi-transparent.png" alt="limsi-logo"/>
                 </a>
-                <a href="http://www.u-psud.fr/en/index.html" target="_blank" class="navbar-brand img-navbar-brand">
+                <a href="http://www.u-psud.fr/en/index.html" target="_blank" class="navbar-logo">
                     <img src="/assets/img/psud-psaclay-transparent.png" alt="psud-psaclay-logo"/>
                 </a>
-                <a href="https://digicosme.lri.fr/tiki-index.php" target="_blank" class="navbar-brand img-navbar-brand">
+                <a href="https://digicosme.lri.fr/tiki-index.php" target="_blank" class="navbar-logo">
                     <img src="/assets/img/LogoDigiSaclayHD-low.png" alt="digicosme-logo"/>
                 </a>
-                <a href="http://www.cnrs.fr/index.php" target="_blank" class="navbar-brand img-navbar-brand">
+                <a href="http://www.cnrs.fr/index.php" target="_blank" class="navbar-logo">
                     <img src="/assets/img/cnrs-transparent.png" alt="cnrs-logo"/>
                 </a>
-            </span>
-        </div>
+            </div>
         </div>
     </div>
 </nav>
 
     <div class="container">
-    <div class="row">
-        <div class="hidden-xs col-sm-3 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-1">
-                <img src="assets/img/id_photo.jpg" alt="id-photo" class="img-thumbnail img-responsive center-block" style="max-width: 170px;">
+    <div class="row header-row">
+        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 d-none d-sm-block align-self-center">
+                <img src="assets/img/id_photo.jpg" alt="id-photo" class="img-thumbnail img-responsive">
         </div>
-        <div class="col-xs-12 col-sm-9 col-md-7 col-lg-8">
-            <h1 class="title">Julien TOURILLE <small>Phd Student</small></h1>
+        <div class="col-xl-10 col-lg-10 col-md-9 col-sm-8 col-xs-12">
+            <h1 class="title">Julien TOURILLE <small class="text-muted">Phd Student</small></h1>
             <address>
                 <strong>LIMSI-CNRS</strong><br>
                 Bâtiments 508 et 502bis<br>
@@ -112,15 +97,15 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-12">
             <h2 id="about">About Me</h2>
-            <blockquote>
-                I am a PhD student at LIMSI. I am working on temporal information extraction and coreference resolution in the clinical domain. I am supervised by <a href="http://oferret.free.fr/" target="_blank">Olivier Ferret</a>, <a href="https://perso.limsi.fr/neveol" target="_blank">Aurélie Névéol</a> and <a href="https://perso.limsi.fr/xtannier" target="_blank">Xavier Tannier</a>.
+            <blockquote class="blockquote">
+                <p>I am a PhD student at LIMSI. I am working on temporal information extraction and coreference resolution in the clinical domain. I am supervised by <a href="http://oferret.free.fr/" target="_blank">Olivier Ferret</a>, <a href="https://perso.limsi.fr/neveol" target="_blank">Aurélie Névéol</a> and <a href="https://perso.limsi.fr/xtannier" target="_blank">Xavier Tannier</a>.</p>
             </blockquote>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-12">
             <hr />
             <h2 id="publications">Publications</h2>
                 <h3>2017</h3>
@@ -133,9 +118,9 @@
                         Association for Computational Linguistics, Vancouver, Canada, 2017.
                         (acceptance rate: 19.11%, Core <a href="http://portal.core.edu.au/conf-ranks/196/" target="_blank">A*</a>)
                         <br/>
-                        <a class="btn btn-info btn-xs" href="assets/medias/papers/tourille-ferret-tannier-neveol-acl2017.pdf" role="button" target="_blank">PDF</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/bibtex/tourille-ferret-tannier-neveol-acl2017.txt" role="button" target="_blank">BibTeX</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/posters/tourille-ferret-tannier-neveol-acl2017-poster.pdf" role="button" target="_blank">Poster</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/papers/tourille-ferret-tannier-neveol-acl2017.pdf" role="button" target="_blank">PDF</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/bibtex/tourille-ferret-tannier-neveol-acl2017.txt" role="button" target="_blank">BibTeX</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/posters/tourille-ferret-tannier-neveol-acl2017-poster.pdf" role="button" target="_blank">Poster</a>
                     </div>
                 </div>
                 <div class="bib-entry">
@@ -147,9 +132,9 @@
                         Association for Computational Linguistics, Vancouver, Canada, 2017.
                         (Selected for the "Best of SemEval-2017" session)
                         <br/>
-                        <a class="btn btn-info btn-xs" href="assets/medias/papers/tourille-ferret-tannier-neveol-semeval2017.pdf" role="button" target="_blank">PDF</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/slides/tourille-ferret-tannier-neveol-semeval2017-slides.pdf" role="button" target="_blank">Slides</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/bibtex/tourille-ferret-tannier-neveol-semeval2017.txt" role="button" target="_blank">BibTeX</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/papers/tourille-ferret-tannier-neveol-semeval2017.pdf" role="button" target="_blank">PDF</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/slides/tourille-ferret-tannier-neveol-semeval2017-slides.pdf" role="button" target="_blank">Slides</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/bibtex/tourille-ferret-tannier-neveol-semeval2017.txt" role="button" target="_blank">BibTeX</a>
                     </div>
                 </div>
                 <div class="bib-entry">
@@ -161,9 +146,9 @@
                         Association for Computational Linguistics, Valencia, Spain, 2017.
                         (acceptance rate: 24%, Core <a href="http://portal.core.edu.au/conf-ranks/468/" target="_blank">A</a>)
                         <br/>
-                        <a class="btn btn-info btn-xs" href="assets/medias/papers/tourille-ferret-tannier-neveol-eacl2017.pdf" role="button" target="_blank">PDF</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/bibtex/tourille-ferret-tannier-neveol-eacl2017.txt" role="button" target="_blank">BibTeX</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/posters/tourille-ferret-tannier-neveol-eacl2017-poster.pdf" role="button" target="_blank">Poster</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/papers/tourille-ferret-tannier-neveol-eacl2017.pdf" role="button" target="_blank">PDF</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/bibtex/tourille-ferret-tannier-neveol-eacl2017.txt" role="button" target="_blank">BibTeX</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/posters/tourille-ferret-tannier-neveol-eacl2017-poster.pdf" role="button" target="_blank">Poster</a>
                     </div>
                 </div>
                 <h3>2016</h3>
@@ -176,9 +161,9 @@
                         Paris, France, 2016.
                         (acceptance rate: 60%)
                         <br/>
-                        <a class="btn btn-info btn-xs" href="assets/medias/papers/tourille-ferret-neveol-tannier-taln2016.pdf" role="button" target="_blank">PDF</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/bibtex/tourille-ferret-neveol-tannier-taln2016.txt" role="button" target="_blank">BibTeX</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/posters/tourille-ferret-neveol-tannier-taln2016-poster.pdf" role="button" target="_blank">Poster</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/papers/tourille-ferret-neveol-tannier-taln2016.pdf" role="button" target="_blank">PDF</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/bibtex/tourille-ferret-neveol-tannier-taln2016.txt" role="button" target="_blank">BibTeX</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/posters/tourille-ferret-neveol-tannier-taln2016-poster.pdf" role="button" target="_blank">Poster</a>
                     </div>
                 </div>
                 <div class="bib-entry">
@@ -190,16 +175,16 @@
                         Association for Computational Linguistics, San Diego, California, 2016.
                         (Selected for the "Best of SemEval-2016" session)
                         <br/>
-                        <a class="btn btn-info btn-xs" href="assets/medias/papers/tourille-ferret-neveol-tannier-semeval2016.pdf" role="button" target="_blank">PDF</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/slides/tourille-ferret-neveol-tannier-semeval2016-slides.pdf" role="button" target="_blank">Slides</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/bibtex/tourille-ferret-neveol-tannier-semeval2016.txt" role="button" target="_blank">BibTeX</a>
-                        <a class="btn btn-info btn-xs" href="assets/medias/posters/tourille-ferret-neveol-tannier-semeval2016-poster.pdf" role="button" target="_blank">Poster</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/papers/tourille-ferret-neveol-tannier-semeval2016.pdf" role="button" target="_blank">PDF</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/slides/tourille-ferret-neveol-tannier-semeval2016-slides.pdf" role="button" target="_blank">Slides</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/bibtex/tourille-ferret-neveol-tannier-semeval2016.txt" role="button" target="_blank">BibTeX</a>
+                        <a class="btn btn-secondary btn-sm" href="assets/medias/posters/tourille-ferret-neveol-tannier-semeval2016-poster.pdf" role="button" target="_blank">Poster</a>
                     </div>
                 </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-12">
             <hr />
             <h2 id="teaching">Teaching Activities</h2>
             <h3>2016-2017</h3>
@@ -264,10 +249,12 @@
     <footer class="site-footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-md-offset-1">
-                <ul class="list-unstyled">
-                    <li>Last update: August 2017</li>
-                </ul>
+            <div class="col-md-4">
+                Last update: August 2017
+            </div>
+            <div class="col-md-8">
+                This website has been built using <a href="https://getbootstrap.com/">Bootstrap</a> and
+                <a href="https://jekyllrb.com/">jekyll</a>
             </div>
         </div>
     </div>

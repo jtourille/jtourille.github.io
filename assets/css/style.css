@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    padding-top: 70px;
+    /*padding-top: 70px;*/
 }
 
 .fa, .ai {
@@ -32,13 +32,13 @@ address {
     font-weight: normal;
 }
 
-.img-navbar-brand {
-  padding: 0px;
+.navbar-logo > img {
+    padding: 0px 7px;
+    max-height: 35px;
 }
-.navbar-brand>img {
-  height: 100%;
-  padding: 7px 15px;
-  width: auto;
+
+.header-row {
+    margin-bottom: 20px;
 }
 
 .margin-custom {
@@ -69,6 +69,6 @@ address {
 .site-footer {
     border-top:1px solid #e8e8e8;
     margin-top: 20px;
-    padding-top: 12px;
-    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
