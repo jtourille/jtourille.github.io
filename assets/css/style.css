@@ -29,8 +29,11 @@ address {
 }
 
 .navbar-logo > img {
-    padding: 0px 7px;
     max-height: 35px;
+}
+
+.navbar-logo {
+    margin-left: 10px;
 }
 
 .header-row {
