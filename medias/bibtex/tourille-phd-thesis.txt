@@ -1,0 +1,10 @@
+@phdthesis{tourille:tel-01997223,
+  TITLE = {Extracting Clinical Event Timelines : Temporal Information Extraction and Coreference Resolution in Electronic Health Records},
+  AUTHOR = {Tourille, Julien},
+  URL = {https://tel.archives-ouvertes.fr/tel-01997223},
+  NUMBER = {2018SACLS603},
+  SCHOOL = {{Universit{\'e} Paris-Saclay}},
+  YEAR = {2018},
+  MONTH = Dec,
+  KEYWORDS = {Electronic health  records ; Clinical  timelines ; Coreference resolution ; Temporal information  extraction ; Extraction  d'information temporelles ; Dossiers patients  {\'e}lectroniques ; Chronologies  m{\'e}dicales ; R{\'e}solution de la cor{\'e}ference},
+}

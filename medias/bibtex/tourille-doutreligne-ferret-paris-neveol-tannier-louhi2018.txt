@@ -1,0 +1,11 @@
+@InProceedings{W18-5622,
+  author = 	"Tourille, Julien and Doutreligne, Matthieu and Ferret, Olivier and N{\'e}v{\'e}ol, Aur{\'e}lie and Paris, Nicolas and Tannier, Xavier",
+  title = 	"Evaluation of a Sequence Tagging Tool for Biomedical Texts",
+  booktitle = 	"Proceedings of the Ninth International Workshop on Health Text Mining and Information Analysis",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"193--203",
+  location = 	"Brussels, Belgium",
+  url = 	"http://aclweb.org/anthology/W18-5622"
+}
+
