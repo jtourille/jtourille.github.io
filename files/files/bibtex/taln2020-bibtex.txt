@@ -1,0 +1,8 @@
+@InProceedings{taln2020,
+    title = {Mod\`{e}le neuronal pour la r\'{e}solution de la cor\'{e}f\'{e}rence dans les dossiers m\'{e}dicaux \'{e}lectroniques},
+    author = {Tourille, Julien and Ferret, Olivier and N\'{e}v\'{e}ol, Aur\'{e}lie and Tannier, Xavier},
+    booktitle = {Actes de la Conf\'{e}rence Traitement Automatique des Langues Naturelles (TALN 2020)},
+    year = {2020},
+    month = {July},
+    pages = {251--360}
+}
