@@ -1,0 +1,9 @@
+@InProceedings{dufraisse2022,
+  author    = {Dufraisse, Evan and Treuillier, Celina and Brun, Armelle and Tourille, Julien and Castagnos, Sylvain and Popescu, Adrian},
+  title     = {Don’t Burst Blindly: For a Better Use of Natural Language Processing to Fight Opinion Bubbles in News Recommendations},
+  booktitle = {Proceedings of the 1st Workshop on Natural Language Processing for Political sciences},
+  month     = {June},
+  year      = {2022},
+  address   = {Marseille, France}
+}
+

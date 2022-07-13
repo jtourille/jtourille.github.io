@@ -1,0 +1,9 @@
+@InProceedings{leclercqdelannoy2022,
+  author    = {Le Clercq de Lannoy, Tiphaine and Besançon, Romaric and Ferret, Olivier and Tourille, Julien and Brin-Henry, Frédérique and Vieru, Bianca},
+  title     = {Stratégies d’adaptation pour la reconnaissance d’entités médicales en français},
+  booktitle = {Actes de la Conférence Traitement Automatique des Langues Naturelles 2022},
+  month     = {June},
+  year      = {2022},
+  address   = {Avignon, France}
+}
+

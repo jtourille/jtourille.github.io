@@ -1,5 +1,5 @@
 body {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 #id-card a {
@@ -109,4 +109,14 @@ body {
 
 .blockquote-post p {
     margin:0;
+}
+
+
+.btn-sm {
+    padding: .1rem .35rem;
+    font-size: .75rem;
+}
+
+.subsection {
+    font-weight: bold;
 }
