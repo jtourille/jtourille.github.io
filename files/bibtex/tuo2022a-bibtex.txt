@@ -1,9 +1,0 @@
-@InProceedings{tuo2022a,
-  author    = {Tuo, Aboubacar and Besançon, Romaric and Ferret, Olivier and Tourille, Julien},
-  title     = {Better Exploiting BERT for Few-shot Event Detection},
-  booktitle = {Proceedings of the 27th International Conference on Natural Language and Information Systems},
-  month     = {June},
-  year      = {2022},
-  address   = {València, Spain}
-}
-

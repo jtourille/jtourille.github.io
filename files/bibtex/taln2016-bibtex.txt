@@ -1,8 +1,0 @@
-@InProceedings{taln2016,
-    title = {Extraction de relations temporelles dans des dossiers \'{e}lectroniques patient},
-    author = {Tourille, Julien and Ferret, Olivier and N\'{e}v\'{e}ol, Aur\'{e}lie and Tannier, Xavier},
-    booktitle = {Actes de la Conf\'{e}rence Traitement Automatique des Langues Naturelles (TALN 2016)},
-    address = {Paris, France},
-    year = {2016},
-    month = {July}
-}

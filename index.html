@@ -6,10 +6,12 @@
         <meta name="author" content="Julien Tourille">
         <meta name="generator" content="Pelican 4.2.0">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" type="text/css" href="./theme/css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="./theme/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="./theme/css/all.css" />
-        <link rel="stylesheet" type="text/css" href="./theme/css/academicons.min.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="/theme/css/all.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/academicons.min.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
 </head>
 <body class="h-100 d-flex flex-column">
 <!--<header>
@@ -23,10 +25,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home</a>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="./blog.html">Blog</a>
+                        <a class="nav-link" href="/blog.html">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -35,261 +37,468 @@
 </header>-->
 <main role="main" class="flex-shrink-0">
     <div class="container">
-<div class="row" id="id-card">
-    <div class="hidden-xs col-md-3 col-sm-3 col-lg-2">
-        <img src="/theme/images/julien_tourille.jpg" alt="id-photo" class="img-thumbnail img-responsive center-block" style="max-width: 170px;">
+    <div class="row" id="id-card">
+        <div class="hidden-xs col-md-3 col-sm-3 col-lg-2">
+            <img src="/theme/images/julien_tourille.jpg" alt="id-photo"
+                 class="img-thumbnail img-responsive center-block" style="max-width: 170px;">
+        </div>
+        <div class="col-xs-12 col-md-9 col-sm-9 col-lg-10">
+            <h1 class="title">Julien TOURILLE, <small class="text-muted">PhD</small></h1>
+            <address>
+                <strong>Centre d’intégration Nano-INNOV</strong><br>
+                CEA/DRT/LIST/DIASI/LASTI<br>
+                2, Boulevard Thomas Gobert<br>
+                91120 PALAISEAU<br>
+                julien.tourille[AT]cea.fr
+            </address>
+            <a href="https://github.com/jtourille" target="_blank"><i class="fab fa-github fa-lg fab-custom"></i></a>
+            <a href="https://www.linkedin.com/in/julientourille" target="_blank"><i
+                    class="fab fa-linkedin-in fa-lg fab-custom"></i></a>
+            <a href="https://twitter.com/JulienTourille" target="_blank"><i class="fab fa-twitter fa-lg fab-custom"></i></a>
+            <a href="https://scholar.google.fr/citations?user=99ywuNMAAAAJ&hl=en" target="_blank"><i
+                    class="ai ai-google-scholar fa-lg fab-custom"></i></a>
+        </div>
     </div>
-    <div class="col-xs-12 col-md-9 col-sm-9 col-lg-10">
-        <h1 class="title">Julien TOURILLE</h1>
-        <address>
-            <strong>Centre d’intégration Nano-INNOV</strong><br>
-            CEA/DRT/LIST/DIASI/LASTI<br>
-            2, Boulevard Thomas Gobert<br>
-            91120 PALAISEAU<br>
-            <abbr title="Email">M:</abbr> julien.tourille[AT]cea.fr
-        </address>
-        <a href="http://stackoverflow.com/users/3982262/julien-tourille" target="_blank"><i class="fab fa-stack-overflow fa-lg"></i></a>
-        <a href="https://github.com/jtourille" target="_blank"><i class="fab fa-github fa-lg"></i></a>
-        <a href="https://www.linkedin.com/in/julientourille" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>
-        <a href="https://twitter.com/JulienTourille" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
-        <a href="https://scholar.google.fr/citations?user=99ywuNMAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square fa-lg"></i></a>
+    <div class="row">
+        <div class="col-12">
+            <h2 id="about">About Me</h2>
+            <blockquote class="blockquote">
+                <p>I am a NLP researcher at <a href="https://www-list.cea.fr/en/" target="blank_">CEA LIST</a> working
+                    with the industry at the frontier of research 🚀.<br/> I am also fighting disinformation and polarization by devising new
+                    methods for <a target="_blank" href="http://boom.loria.fr/">news recommendation</a>.</p>
+            </blockquote>
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <blockquote class="blockquote">
-            <p><strong>Current position</strong>: NLP researcher at <a href="http://www-list.cea.fr/en/" target="blank_">CEA LIST</a></p>
-        </blockquote>
+    <div class="row">
+        <div class="col-12">
+            <hr/>
+            <h2 id="projects">📋 Current Projects & Collaborations <a class="anchor" href="#projects">#</a></h2>
+            <div class="card mb-12" style="border: none;">
+                <div class="row g-0">
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">VANGUARD - Disrupting trafficking in human beings</h5>
+                            <p class="card-text">
+                                Information extraction from web and social media resources<br/>
+                                HE / EU contribution: € 5,000,000 / Duration: 36m (2023-10 - 2026-09)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex align-items-center justify-content-center">
+                        <img src="/files/misc/Logo_Horizon_Europe_1_2.png" class="img-fluid rounded-start project-img"
+                             alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-12" style="border: none;">
+                <div class="row g-0">
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">Confiance.ai</h5>
+                            <p class="card-text">Working with Renault on domain adaptation for language models</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex align-items-center justify-content-center">
+                        <img src="/files/misc/confiance.jpeg" class="img-fluid rounded-start project-img"
+                             alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-12" style="border: none;">
+                <div class="row g-0">
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">eMeuse Santé</h5>
+                            <p class="card-text">Information extraction from clinical trial recruitments</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex align-items-center justify-content-center">
+                        <img src="/files/misc/emeuse.jpeg" class="img-fluid rounded-start project-img"
+                             alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-12" style="border: none;">
+                <div class="row g-0">
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">DGCCRF</h5>
+                            <p class="card-text"> Document classification to speed up claim processing<br/>
+                                Second place 🥈 « coup de cœur » during BERCY INNOV</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex align-items-center justify-content-center">
+                        <img src="/files/misc/Logo_DGCCRF2011.jpg" class="img-fluid rounded-start project-img"
+                             alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-12" style="border: none;">
+                <div class="row g-0">
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">AI4media, A European Excellence Centre for Media, Society and
+                                Democracy</h5>
+                            <p class="card-text">
+                                NLP methods for information extraction in news<br/>
+                                H2020 / EU contribution: € 11,999,722.50 / Duration: 48m (2020-09 - 2024-08)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex align-items-center justify-content-center">
+                        <img src="/files/misc/Logo_AI4Media-01.png" class="img-fluid rounded-start project-img"
+                             alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-12" style="border: none;">
+                <div class="row g-0">
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">BOOM - Modeling and Opening Opinion Bubbles</h5>
+                            <p class="card-text">
+                                New methods for news recommendation systems that take into account both options and
+                                topics<br/>
+                                ANR PRCE / ANR contribution: € 739,176.83 / Duration: 48m (2021-01 - 2024-12)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex align-items-center justify-content-center">
+                        <img src="/files/misc/BOOM_LOGO.png" class="img-fluid rounded-start project-img" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-12" style="border: none;">
+                <div class="row g-0">
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">CoDeinE - artificial text COrpus DEsIgNed Ethically</h5>
+                            <p class="card-text">
+                                Clinical text generation in collaboration with AP-HP<br/>
+                                ANR PRC / ANR contribution: € 558,772.16 / Duration: 48m (2021-03 - 2025-02)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-flex align-items-center justify-content-center">
+                        <img src="/files/misc/logo_anr.png" class="img-fluid rounded-start project-img" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <hr />
-        <h2>Projects</h2>
-        <ul class="list-unstyled">
-            <li class="media">
-                <img src="/files/misc/Logo_AI4Media-01.png" class="mr-3" alt="AI4media" width="64px">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1"><a href="https://ai4media.eu/" target="_blank">AI4media</a> - A European Excellence Centre for Media, Society and Democracy</h5>
-                    H2020 / EU contribution: € 11,999,722.50 / Duration: 48m (2020/09/01 - 2024/08/31)
-                </div>
-            </li>
-            <li class="media my-4">
-                <img src="/files/misc/logo_boom.png" class="mr-3" alt="ANR" width="64px">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1"><a href="https://boom.loria.fr/" target="_blank">BOOM</a> - Modeling and Opening Opinion Bubbles</h5>
-                    ANR PRCE / ANR contribution: € 739,176.83
-                </div>
-            </li>
-            <li class="media my-4">
-                <img src="/files/misc/logo_anr.png" class="mr-3" alt="ANR" width="64px">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1"><a href="https://codeine.lisn.upsaclay.fr/" target="_blank">CoDeinE</a> - artificial text COrpus DEsIgNed Ethically</h5>
-                    ANR PRC / ANR contribution: € 558,772.16
-                </div>
-            </li>
-            <li class="media">
-                <img src="/files/misc/Logotype-rouge-bleu.png" class="mr-3" alt="France2030" width="64px">
-                <div class="media-body">
-                    <h5 class="mt-0 mb-1">eMeuse Santé</h5>
-                    State contribution: € 8.4M
-                </div>
-            </li>
-        </ul>
+    <div class="row">
+        <div class="col-12">
+            <hr/>
+            <h2 id="supervision">🎓 Supervision <a class="anchor" href="#supervision">#</a></h2>
+            <h3 class="h3-small">Current</h3>
+            <ul class="list">
+                <li><strong>Rida Lali</strong> (intern, 2023): Event Extraction, Knowledge Injection</li>
+                <li><strong>Paul Grimal</strong> (PhD student, 2022-2025): Multi-modality, Diffusion Models</li>
+                <li><strong>Evan Dufraisse</strong> (PhD student, 2021-2024): Aspect-Based Sentiment Analysis</li>
+                <li><strong>Aboubacar Tuo</strong> (PhD student, 2020-2023): Event Extraction, Few-shot learning</li>
+                <li><strong>Guilhem Piat</strong> (PhD student, 2019-2023): Named Entity Recognition, Entity Linking,
+                    BioNLP
+                </li>
+
+            </ul>
+            <h3 class="h3-small">Past</h3>
+            <ul>
+                <li><strong>Babacar Sow</strong> (intern, 2021): DeepFake Detection</li>
+                <li><strong>Salma Salhi</strong> (intern, 2020): Event Extraction</li>
+            </ul>
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <hr />
-        <h2>Supervision</h2>
-        <span class="subsection">Current</span>
-        <ul>
-            <li><strong>Guilhem PIAT</strong> (PhD student, 2019-2022): Named Entity Recognition, Entity Linking, BioNLP</li>
-            <li><strong>Aboubacar TUO</strong> (PhD student, 2020-2023): Event Extraction, Few-shot learning</li>
-            <li><strong>Evan DUFRAISSE</strong> (PhD student, 2021-2024): Aspect Based Sentiment Analysis, Language Modeling</li>
-        </ul>
-        <span class="subsection">Past</span>
-        <ul>
-            <li><strong>Babacar SOW</strong> (intern, 2021): DeepFake detection</li>
-            <li><strong>Salma SALHI</strong> (intern, 2020): Event Extraction</li>
-        </ul>
+    <div class="row">
+        <div class="col-12">
+            <hr/>
+            <h2 id="publications">📚 Publications <a class="anchor" href="#publications">#</a></h2>
+                <h3 class="h3-small">2023</h3>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Evan Dufraisse, Adrian Popescu, <u>Julien Tourille</u>, Armelle Brun, Jérôme Deshayes<br/>
+                            <strong>MAD-TSC: A Multilingual Aligned News Dataset for Target-dependent Sentiment Classification
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics</span>
+                                . Association for Computational Linguistics
+                                , 2023.
+                            <br/>
+                                <a class="btn btn-sm btn-askme" href="mailto:julien.tourille AT cea.fr" role="button"
+                                   target="_blank">Ask Me</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Aboubacar Tuo, Romaric Besançon, Olivier Ferret, <u>Julien Tourille</u><br/>
+                            <strong>Détection d'événements à partir de peu d'exemples par seuillage dynamique
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Actes de la 30e Conférence sur le Traitement Automatique des Langues Naturelles</span>
+                                . ATALA
+                                , 2023.
+                            <br/>
+                                <a class="btn btn-sm btn-askme" href="mailto:julien.tourille AT cea.fr" role="button"
+                                   target="_blank">Ask Me</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Guilhem Piat, Ellington Kirby, <u>Julien Tourille</u>, Nasredine Semmar, Alexandre Allauzen, Hassane Essafi<br/>
+                            <strong>Intégration de connaissances structurées par synthèse de texte spécialisé
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Actes de la 30e Conférence sur le Traitement Automatique des Langues Naturelles</span>
+                                . ATALA
+                                , 2023.
+                            <br/>
+                                <a class="btn btn-sm btn-askme" href="mailto:julien.tourille AT cea.fr" role="button"
+                                   target="_blank">Ask Me</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Aboubacar Tuo, Romaric Besançon, Olivier Ferret, <u>Julien Tourille</u><br/>
+                            <strong>Trigger or Not Trigger: Dynamic Thresholding for Few Shot Event Detection
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 45th European Conference on Information Retrieval</span>
+                                . Springer
+                                , 2023.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://doi.org/10.1007/978-3-031-28238-6_55" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-askme" href="mailto:julien.tourille AT cea.fr" role="button"
+                                   target="_blank">Ask Me</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Evan Dufraisse, <u>Julien Tourille</u>, Armelle Brun, Adrian Popescu<br/>
+                            <strong>Analysis of Polarization in the News
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Workshop on fake news "Infox sur Seine"</span>
+                                , 2023.
+                            <br/>
+                                <a class="btn btn-sm btn-askme" href="mailto:julien.tourille AT cea.fr" role="button"
+                                   target="_blank">Ask Me</a>
+                        </div>
+                    </div>
+                <h3 class="h3-small">2022</h3>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Guilhem Piat, Nasredine Semmar, Alexandre Allauzen, Hassane Essafi, <u>Julien Tourille</u><br/>
+                            <strong>Enriching Contextualized Representations with Biomedical Ontologies: Extending KnowBert to UMLS
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 2022 Computing Conference</span>
+                                . Springer
+                                , 2022.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://link.springer.com/chapter/10.1007/978-3-031-10464-0_52" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-askme" href="mailto:julien.tourille AT cea.fr" role="button"
+                                   target="_blank">Ask Me</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Aboubacar Tuo, Romaric Besançon, Olivier Ferret, <u>Julien Tourille</u><br/>
+                            <strong>Mieux utiliser BERT pour la détection d'évènements à partir de peu d'exemples
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Actes de la 29e Conférence sur le Traitement Automatique des Langues Naturelles</span>
+                                . ATALA
+                                , 2022.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/2022.jeptalnrecital-taln.39" role="button"
+                                   target="_blank">Direct Link</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Tiphaine Le Clercq de Lannoy, Romaric Besançon, Olivier Ferret, <u>Julien Tourille</u>, Frédérique Brin-Henry, Bianca Vieru<br/>
+                            <strong>Stratégies d'adaptation pour la reconnaissance d'entités médicales en français
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Actes de la 29e Conférence sur le Traitement Automatique des Langues Naturelles</span>
+                                . ATALA
+                                , 2022.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/2022.jeptalnrecital-taln.21" role="button"
+                                   target="_blank">Direct Link</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Evan Dufraisse, Célina Treuillier, Armelle Brun, <u>Julien Tourille</u>, Sylvain Castagnos, Adrian Popescu<br/>
+                            <strong>Don't Burst Blindly: For a Better Use of Natural Language Processing to Fight Opinion Bubbles in News Recommendations
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the LREC 2022 workshop on Natural Language Processing for Political Sciences</span>
+                                . European Language Resources Association
+                                , 2022.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/2022.politicalnlp-1.11" role="button"
+                                   target="_blank">Direct Link</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u>, Babacar Sow, Adrian Popescu<br/>
+                            <strong>Automatic Detection of Bot-generated Tweets
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 1st Workshop on Multimedia AI against Disinformation</span>
+                                . Association for Computing Machinery
+                                , 2022.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://dl.acm.org/doi/abs/10.1145/3512732.3533584" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-askme" href="mailto:julien.tourille AT cea.fr" role="button"
+                                   target="_blank">Ask Me</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            Aboubacar Tuo, Romaric Besançon, Olivier Ferret, <u>Julien Tourille</u><br/>
+                            <strong>Better Exploiting BERT for Few-shot Event Detection
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 27th International Conference on Natural Language and Information Systems</span>
+                                . Springer
+                                , 2022.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://link.springer.com/chapter/10.1007/978-3-031-08473-7_26" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-askme" href="mailto:julien.tourille AT cea.fr" role="button"
+                                   target="_blank">Ask Me</a>
+                        </div>
+                    </div>
+                <h3 class="h3-small">2020</h3>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u>, Olivier Ferret, Aurélie Névéol, Xavier Tannier<br/>
+                            <strong>Modèle neuronal pour la résolution de la coréférence dans les dossiers médicaux électroniques
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Actes de la 27e conférence sur Traitement Automatique des Langues Naturelles</span>
+                                . ATALA
+                                , 2020.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/2020.jeptalnrecital-taln.35" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-slides" href="/files/slides/tourille-resolution-coreference-2020-slides.pdf" role="button"
+                                   target="_blank">Slides</a>
+                        </div>
+                    </div>
+                <h3 class="h3-small">2018</h3>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u><br/>
+                            <strong>Extracting Clinical Event Timelines: Temporal Information Extraction and Coreference Resolution in Electronic Health Records
+                            </strong><br/>
+                                Université Paris-Saclay
+                                , 2018.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://www.theses.fr/2018SACLS603" role="button"
+                                   target="_blank">Direct Link</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u>, Matthieu Doutreligne, Olivier Ferret, Aurélie Névéol, Nicolas Paris, Xavier Tannier<br/>
+                            <strong>Evaluation of a Sequence Tagging Tool for Biomedical Texts
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the Ninth International Workshop on Health Text Mining and Information Analysis</span>
+                                . Association for Computational Linguistics
+                                , 2018.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/W18-5622" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-slides" href="/files/slides/tourille-evaluating-ner-louhi-2018-slides.pdf" role="button"
+                                   target="_blank">Slides</a>
+                        </div>
+                    </div>
+                <h3 class="h3-small">2017</h3>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u>, Olivier Ferret, Xavier Tannier, Aurélie Névéol<br/>
+                            <strong>LIMSI-COT at SemEval-2017 Task 12: Neural Architecture for Temporal Information Extraction from Clinical Narratives
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)</span>
+                                . Association for Computational Linguistics
+                                , 2017.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/S17-2098" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-slides" href="/files/slides/tourille-semeval-2017-slides.pdf" role="button"
+                                   target="_blank">Slides</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u>, Olivier Ferret, Aurélie Névéol, Xavier Tannier<br/>
+                            <strong>Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics</span>
+                                . Association for Computational Linguistics
+                                , 2017.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/P17-2035" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-poster" href="/files/posters/tourille-temporal-information-extraction-bilstm-2017-poster.pdf" role="button"
+                                   target="_blank">Poster</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u>, Olivier Ferret, Xavier Tannier, Aurélie Névéol<br/>
+                            <strong>Temporal information extraction from clinical text
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics</span>
+                                . Association for Computational Linguistics
+                                , 2017.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/E17-2117" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-poster" href="/files/posters/tourille-temporal-information-extraction-2017-poster.pdf" role="button"
+                                   target="_blank">Poster</a>
+                        </div>
+                    </div>
+                <h3 class="h3-small">2016</h3>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u>, Olivier Ferret, Aurélie Névéol, Xavier Tannier<br/>
+                            <strong>Extraction de relations temporelles dans des dossiers électroniques patient
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Actes de la 23e Conférence sur le Traitement Automatique des Langues Naturelles</span>
+                                . ATALA
+                                , 2016.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/2016.jeptalnrecital-poster.19" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-poster" href="/files/posters/tourille-extraction-relations-temporelles-2016-poster.pdf" role="button"
+                                   target="_blank">Poster</a>
+                        </div>
+                    </div>
+                    <div class="bib-entry">
+                        <div class="bib-content">
+                            <u>Julien Tourille</u>, Olivier Ferret, Aurélie Névéol, Xavier Tannier<br/>
+                            <strong>LIMSI-COT at SemEval-2016 Task 12: Temporal relation identification using a pipeline of classifiers
+                            </strong><br/>
+                                In: <span class="italic bib-booktitle ">Proceedings of the 10th International Workshop on Semantic Evaluation</span>
+                                . Association for Computational Linguistics
+                                , 2016.
+                            <br/>
+                                <a class="btn btn-sm btn-url" href="https://aclanthology.org/S16-1175" role="button"
+                                   target="_blank">Direct Link</a>
+                                <a class="btn btn-sm btn-poster" href="/files/posters/tourille-semeval-2016-poster.pdf" role="button"
+                                   target="_blank">Poster</a>
+                                <a class="btn btn-sm btn-slides" href="/files/slides/tourille-semeval-2016-slides.pdf" role="button"
+                                   target="_blank">Slides</a>
+                        </div>
+                    </div>
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-12">
-        <hr />
-        <h2 id="publications">Publications</h2>
-            <h3>2022</h3>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        Tiphaine Le Clercq de Lannoy, Romaric Besançon, Olivier Ferret, <u>Julien Tourille</u>, Frédérique Brin-Henry, Bianca Vieru<br />
-                        <strong>Stratégies d’adaptation pour la reconnaissance d’entités médicales en français</strong><br />
-                            In: <span class="italic bib-booktitle">Actes de la Conférence Traitement Automatique des Langues Naturelles 2022</span>.
-                            Association pour le Traitement Automatique des Langues,
-                        2022.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/leclercqdelannoy2022-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/leclercqdelannoy2022-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        Aboubacar Tuo, Romaric Besançon, Olivier Ferret, <u>Julien Tourille</u><br />
-                        <strong>Mieux utiliser BERT pour la détection d’évènements à partir de peu d’exemples</strong><br />
-                            In: <span class="italic bib-booktitle">Actes de la Conférence Traitement Automatique des Langues Naturelles 2022</span>.
-                            Association pour le Traitement Automatique des Langues,
-                        2022.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/tuo2022b-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/tuo2022b-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        Aboubacar Tuo, Romaric Besançon, Olivier Ferret, <u>Julien Tourille</u><br />
-                        <strong>Better Exploiting BERT for Few-shot Event Detection</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 27th International Conference on Natural Language and Information Systems</span>.
-                        2022.<br />
-                            <a class="btn btn-sm paper-color" href="mailto:julien DOT tourille AT cea DOT fr" role="button" target="_blank">Ask Me !</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/tuo2022a-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        Evan Dufraisse, Celina Treuillier, Armelle Brun, <u>Julien Tourille</u>, Sylvain Castagnos, Adrian Popescu<br />
-                        <strong>Don’t Burst Blindly: For a Better Use of Natural Language Processing to Fight Opinion Bubbles in News Recommendations</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 1st Workshop on Natural Language Processing for Political sciences</span>.
-                        2022.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/dufraisse2022-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/dufraisse2022-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u>, Babacar Sow, Adrian Popescu<br />
-                        <strong>Automatic Detection of Bot-generated Tweets</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 1st Workshop on Multimedia AI against Disinformation</span>.
-                            Association for Computing Machinery,
-                        2022.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/tourille2022-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/tourille2022-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        Guilhem Piat, Nasredine Semmar, Alexandre Allauzen, Hassane Essafi, <u>Julien Tourille</u><br />
-                        <strong>Enriching Contextualized Representations with Biomedical Ontologies: Extending KnowBert to UMLS</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 2022 Computing Conference</span>.
-                        2022.<br />
-                            <a class="btn btn-sm paper-color" href="mailto:julien DOT tourille AT cea DOT fr" role="button" target="_blank">Ask Me !</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/piat2022-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-            <h3>2020</h3>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u>, Olivier Ferret, Aurélie Névéol, Xavier Tannier<br />
-                        <strong>Modèle neuronal pour la résolution de la coréférence dans les dossiers médicaux électroniques</strong><br />
-                            In: <span class="italic bib-booktitle">Actes de la Conférence Traitement Automatique des Langues Naturelles 2020</span>.
-                            Association pour le Traitement Automatique des Langues,
-                        2020.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/taln2020-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm slides-color" href="/files/slides/taln2020-slides.pdf" role="button" target="_blank">Slides</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/taln2020-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-            <h3>2018</h3>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u><br />
-                        <strong>Extracting Clinical Event Timelines: Temporal Information Extraction and Coreference Resolution inElectronic Health Records</strong><br />
-                            Université Paris Saclay,
-                        2018.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/phd2018-thesis.pdf" role="button" target="_blank">Thesis</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u>, Matthieu Doutreligne, Olivier Ferret, Nicolas Paris, Aurélie Névéol, Xavier Tannier<br />
-                        <strong>Evaluation of a Sequence Tagging Tool for Biomedical Texts</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 9th International Workshop on Health Text Mining and Information Analysis</span>.
-                            Association for Computational Linguistics,
-                        2018.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/louhi2018-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm slides-color" href="/files/slides/louhi2018-slides.pdf" role="button" target="_blank">Slides</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/louhi2018-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-            <h3>2017</h3>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u>, Olivier Ferret, Xavier Tannier, Aurélie Névéol<br />
-                        <strong>LIMSI-COT at SemEval-2017 Task 12: Neural Architecture for Temporal Information Extraction from Clinical Narratives</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 11th International Workshop on Semantic Evaluation</span>.
-                            Association for Computational Linguistics,
-                        2017.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/semeval2017-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm slides-color" href="/files/slides/semeval2017-slides.pdf" role="button" target="_blank">Slides</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/semeval2017-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u>, Olivier Ferret, Xavier Tannier, Aurélie Névéol<br />
-                        <strong>Temporal Information Extraction from Clinical Text</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics</span>.
-                            Association for Computational Linguistics,
-                        2017.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/eacl2017-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm poster-color" href="/files/posters/eacl2017-poster.pdf" role="button" target="_blank">Poster</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/eacl2017-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u>, Olivier Ferret, Xavier Tannier, Aurélie Névéol<br />
-                        <strong>Neural Architecture for Temporal Relation Extraction: A Bi-LSTM Approach for Detecting Narrative Containers</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics</span>.
-                            Association for Computational Linguistics,
-                        2017.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/acl2017-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm poster-color" href="/files/posters/acl2017-poster.pdf" role="button" target="_blank">Poster</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/acl2017-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-            <h3>2016</h3>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u>, Olivier Ferret, Aurélie Névéol, Xavier Tannier<br />
-                        <strong>LIMSI-COT at SemEval-2016 Task 12: Temporal Relation Identification Using a Pipeline of Classifiers</strong><br />
-                            In: <span class="italic bib-booktitle">Proceedings of the 10th International Workshop on Semantic Evaluation</span>.
-                            Association for Computational Linguistics,
-                        2016.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/semeval2016-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm poster-color" href="/files/posters/semeval2016-poster.pdf" role="button" target="_blank">Poster</a>
-                            <a class="btn btn-sm slides-color" href="/files/slides/semeval2016-slides.pdf" role="button" target="_blank">Slides</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/semeval2016-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-                <div class="bib-entry">
-                    <div class="bib-content">
-                        <u>Julien Tourille</u>, Olivier Ferret, Aurélie Névéol, Xavier Tannier<br />
-                        <strong>Extraction de Relations Temporelles dans des Dossiers Électroniques Patient</strong><br />
-                            In: <span class="italic bib-booktitle">Actes de la Conférence Traitement Automatique des Langues Naturelles 2016</span>.
-                            Association pour le Traitement Automatique des Langues,
-                        2016.<br />
-                                <a class="btn btn-sm paper-color" href="/files/papers/taln2016-paper.pdf" role="button" target="_blank">Paper</a>
-                            <a class="btn btn-sm poster-color" href="/files/posters/taln2016-poster.pdf" role="button" target="_blank">Poster</a>
-                            <a class="btn btn-sm bibtex-color" href="/files/bibtex/taln2016-bibtex.txt" role="button" target="_blank">Bibtex</a>
-                    </div>
-                </div>
-    </div>
-</div>
     </div>
 </main>
 <footer class="site-footer mt-auto py-3">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                Last update: July 2022
+                Last update: May 2023
             </div>
             <div class="col-md-8">
                 This website has been built using <a href="https://getbootstrap.com/">Bootstrap</a>.
@@ -299,11 +508,11 @@
 </footer>
 
 
-<script src="./theme/js/jquery-3.0.0.slim.min.js"></script>
-<script src="./theme/js/bootstrap.bundle.min.js"></script>
-<script src="./theme/js/feather.min.js"></script>
-<script>
-  feather.replace()
-</script>
+<script src="/theme/js/jquery-3.0.0.slim.min.js"></script>
+<script src="/theme/js/bootstrap.bundle.min.js"></script>
+<script src="/theme/js/feather.min.js"></script>
+<!--<script>-->
+<!--  feather.replace()-->
+<!--</script>-->
 </body>
 </html>

@@ -1,9 +1,0 @@
-@InProceedings{tourille-EtAl:2017:Short,
-  author    = {Piat, Guilhem and Semmar, Nasredine and Allauzen, Alexandre and Essafi, Hassane and Tourille, Julien},
-  title     = {Enriching Contextualized Representations with Biomedical Ontologies: Extending KnowBert to UMLS},
-  booktitle = {Proceedings of the 2022 Computing Conference},
-  month     = {July},
-  year      = {2022},
-  address   = {Online}
-}
-
