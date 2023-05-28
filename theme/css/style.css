@@ -1,5 +1,6 @@
 body {
-    padding-top: 50px;
+    position: relative;
+    margin-top: 70px;
 }
 
 #id-card a {
@@ -197,3 +198,12 @@ h2:hover .anchor {
     text-decoration: none !important;
     opacity:100;
 }
+
+.link-project {
+    margin-left: 10px;
+}
+
+/*.scroll {*/
+/*    padding-top: 30px;*/
+/*    margin-top: -30px;*/
+/*}*/

@@ -7,11 +7,10 @@
         <meta name="generator" content="Pelican 4.2.0">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap.min.css" />
-
+        <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
         <link rel="stylesheet" type="text/css" href="/theme/css/all.css" />
         <link rel="stylesheet" type="text/css" href="/theme/css/academicons.min.css" />
         <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap-icons.min.css" />
-    <link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSZP0N2TFH"></script>
@@ -23,9 +22,32 @@
   gtag('config', 'G-KSZP0N2TFH');
 </script>
 <body class="h-100 d-flex flex-column">
-<main role="main" class="flex-shrink-0">
+<nav class="navbar fixed-top bg-light navbar-expand-lg" id="navbar">
+  <div class="container">
+<!--    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--      <span class="navbar-toggler-icon"></span>-->
+<!--    </button>-->
+<!--    <div class="collapse navbar-collapse" id="navbarNav">-->
+      <ul class="nav navbar-nav" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link" href="#id-card">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects & Collabs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#supervision">Supervision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#publications">Publications</a>
+        </li>
+      </ul>
+    </div>
+<!--  </div>-->
+</nav>
+<main role="main" class="flex-shrink-0"  data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0" data-bs-root-margin="0px 0px -40%">
     <div class="container">
-    <div class="row" id="id-card">
+    <div class="row scroll" id="id-card">
         <div class="hidden-xs col-md-3 col-sm-3 col-lg-2">
             <img src="/theme/images/julien_tourille.jpg" alt="id-photo"
                  class="img-thumbnail img-responsive center-block" style="max-width: 170px;">
@@ -63,11 +85,11 @@
                 </p>
             </blockquote>
         </div>
+        <hr/>
     </div>
-    <div class="row">
+    <div class="row" id="projects">
         <div class="col-12">
-            <hr/>
-            <h2 id="projects">📋 Current Projects & Collaborations <a class="anchor" href="#projects">#</a></h2>
+            <h2>📋 Current Projects & Collaborations <a class="anchor" href="#projects">#</a></h2>
             <div class="card mb-12" style="border: none;">
                 <div class="row g-0">
                     <div class="col-md-7">
@@ -88,7 +110,9 @@
                 <div class="row g-0">
                     <div class="col-md-7">
                         <div class="card-body">
-                            <h5 class="card-title">Confiance.ai</h5>
+                            <h5 class="card-title">Confiance.ai<a target="_blank"
+                                                                                                 href="https://www.confiance.ai/"><i
+                                    class="bi bi-box-arrow-up-right link-project"></i></a></h5>
                             <p class="card-text">Working with Renault on domain adaptation for language models</p>
                         </div>
                     </div>
@@ -133,8 +157,9 @@
 
                     <div class="col-md-7">
                         <div class="card-body">
-                            <h5 class="card-title">AI4media, A European Excellence Centre for Media, Society and
-                                Democracy</h5>
+                            <h5 class="card-title">AI4media - A European Excellence Centre for Media, Society and
+                                Democracy<a target="_blank" href="https://www.ai4media.eu/"><i
+                                        class="bi bi-box-arrow-up-right link-project"></i></a></h5>
                             <p class="card-text">
                                 NLP methods for information extraction in news<br/>
                                 H2020 / EU contribution: € 11,999,722.50 / Duration: 48m (2020-09 - 2024-08)
@@ -152,7 +177,9 @@
 
                     <div class="col-md-7">
                         <div class="card-body">
-                            <h5 class="card-title">BOOM - Modeling and Opening Opinion Bubbles</h5>
+                            <h5 class="card-title">BOOM - Modeling and Opening Opinion Bubbles<a target="_blank"
+                                                                                                 href="http://boom.loria.fr/"><i
+                                    class="bi bi-box-arrow-up-right link-project"></i></a></h5>
                             <p class="card-text">
                                 New methods for news recommendation systems that take into account both options and
                                 topics<br/>
@@ -170,7 +197,9 @@
 
                     <div class="col-md-7">
                         <div class="card-body">
-                            <h5 class="card-title">CoDeinE - artificial text COrpus DEsIgNed Ethically</h5>
+                            <h5 class="card-title">CoDeinE - artificial text COrpus DEsIgNed Ethically<a target="_blank"
+                                                                                                         href="https://codeine.lisn.upsaclay.fr/"><i
+                                    class="bi bi-box-arrow-up-right link-project"></i></a></h5>
                             <p class="card-text">
                                 Clinical text generation in collaboration with AP-HP<br/>
                                 ANR PRC / ANR contribution: € 558,772.16 / Duration: 48m (2021-03 - 2025-02)
@@ -183,14 +212,18 @@
                 </div>
             </div>
         </div>
+        <hr/>
     </div>
-    <div class="row">
+    <div class="row" id="supervision">
         <div class="col-12">
-            <hr/>
-            <h2 id="supervision">🎓 Supervision <a class="anchor" href="#supervision">#</a></h2>
+
+            <h2>🎓 Supervision <a class="anchor" href="#supervision">#</a></h2>
             <h3 class="h3-small">Current</h3>
             <ul class="list">
-                <li><strong><a target="_blank" href="https://scholar.google.com/citations?user=ee7oQskAAAAJ&hl=en&oi=ao">Hugo Boulanger</a></strong> (postdoc, 2023-2024): Text Generation</li>
+                <li><strong><a target="_blank"
+                               href="https://scholar.google.com/citations?user=ee7oQskAAAAJ&hl=en&oi=ao">Hugo
+                    Boulanger</a></strong> (postdoc, 2023-2024): Text Generation
+                </li>
                 <li><strong>Rida Lali</strong> (intern, 2023): Event Extraction, Knowledge Injection</li>
                 <li><strong><a target="_blank" href="https://www.theses.fr/s359254">Paul Grimal</a></strong> (PhD
                     student, 2022-2025): Multi-modality, Diffusion Models
@@ -213,11 +246,12 @@
                 <li><strong>Salma Salhi</strong> (intern, 2020): Event Extraction</li>
             </ul>
         </div>
+        <hr/>
     </div>
-    <div class="row">
+    <div class="row" id="publications">
         <div class="col-12">
-            <hr/>
-            <h2 id="publications">📚 Publications <a class="anchor" href="#publications">#</a></h2>
+
+            <h2>📚 Publications <a class="anchor" href="#publications">#</a></h2>
                 <h3 class="h3-small">2023</h3>
                     <div class="bib-entry">
                         <div class="bib-content">
