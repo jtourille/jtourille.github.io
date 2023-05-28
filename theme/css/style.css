@@ -203,7 +203,7 @@ h2:hover .anchor {
     margin-left: 10px;
 }
 
-/*.scroll {*/
-/*    padding-top: 30px;*/
-/*    margin-top: -30px;*/
-/*}*/
+.scroll {
+    padding-top: 70px;
+    margin-top: -70px;
+}
