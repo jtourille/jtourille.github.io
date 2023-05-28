@@ -184,6 +184,10 @@ h3.h3-small {
     margin-right: 5px;
 }
 
+#id-card-spy .fab-custom {
+    color:black;
+}
+
 .anchor {
     text-decoration: none !important;
     opacity:0;
