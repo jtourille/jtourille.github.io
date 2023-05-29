@@ -207,10 +207,12 @@ h2:hover .anchor {
     margin-left: 10px;
 }
 
-/*.scroll {*/
-/*    padding-top: 70px;*/
-/*    margin-top: -70px;*/
-/*}*/
+.anchor-target {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
 
 #id-card-spy {
     margin-bottom: 20px;
