@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="/theme/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/theme/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="/theme/css/all.min.css"/>
     <link rel="stylesheet" type="text/css" href="/theme/css/academicons.min.css"/>
     <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap-icons.min.css"/>
 
@@ -35,6 +35,9 @@
                     <a class="nav-link" href="#id-card-spy">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#news-spy">News</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#projects-spy">Projects & Collabs</a>
                 </li>
                 <li class="nav-item">
@@ -42,6 +45,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#publications-spy">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#opensource-spy">Open Source</a>
                 </li>
             </ul>
         </div>
@@ -51,11 +57,11 @@
       tabindex="0" data-bs-root-margin="0px 0px -40%">
     <div class="container">
     <div class="row" id="id-card-spy">
-        <div class="hidden-xs col-md-3 col-sm-3 col-lg-2">
+        <div class="d-none d-xs-none d-sm-none d-md-block col-md-3 col-lg-2">
             <img src="/theme/images/julien_tourille.jpg" alt="id-photo"
                  class="img-thumbnail img-responsive center-block" style="max-width: 170px;">
         </div>
-        <div class="col-xs-12 col-md-9 col-sm-9 col-lg-10">
+        <div class="col-md-9 col-lg-10">
             <h1 class="title fw-semibold">Julien TOURILLE, <small class="text-muted">PhD</small></h1>
             <address>
                 <strong>Centre d’intégration Nano-INNOV</strong><br>
@@ -89,6 +95,20 @@
                     <a target="_blank" href="https://itra.run/RunnerSpace/RaceResults/TOURILLE.Julien/3148147">a lot</a>.
                 </p>
             </blockquote>
+        </div>
+        <hr/>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <a class="anchor-target" id="news-spy"></a><h2 class="fw-semibold">🗞️ News <a class="anchor" href="#news-spy">#</a></h2>
+            <ul class="list-unstyled">
+                    <li>
+                        <span class="text-success"><strong>[2023-10-24]</strong></span> Our consortium <a href="https://www.openllm-france.fr/" target="_blank">OpenLLM-France</a>, lead by Linagora, has submitted its proposal to the call entitled "<a href="https://www.bpifrance.fr/nos-appels-a-projets-concours/appel-a-projets-communs-numeriques-pour-lintelligence-artificielle-generative" target="_blank">Communs numériques pour l’intelligence artificielle générative</a>"
+                    </li>
+                    <li>
+                        <span class="text-success"><strong>[2023-10]</strong></span> Our paper "TIAM -- A Metric for Evaluating Alignment in Text-to-Image Generation" has been accepted to WACV 2023. 🎉
+                    </li>
+            </ul>
         </div>
         <hr/>
     </div>
@@ -252,7 +272,7 @@
         <hr/>
     </div>
     <div class="row" id="publications-spy">
-        <div class="col-12">
+        <div class="col-12" style="margin-bottom: 0.5rem">
             <a class="anchor-target" id="publications"></a><h2 class="fw-semibold">📚 Publications <a class="anchor" href="#publications">#</a></h2>
                 <h3 class="h3-small fw-semibold">2023</h3>
                     <div class="bib-entry">
@@ -525,6 +545,25 @@
                         </div>
                     </div>
         </div>
+        <hr/>
+    </div>
+    <div class="row" id="opensource-spy">
+        <div class="col-12">
+            <a class="anchor-target" id="opensource"></a><h2 class="fw-semibold">👨‍💻 Open Source <a class="anchor" href="#opensource">#</a></h2>
+            <p>I am just starting giving back to the community by providing some (I hope) useful tools and libraries. <br/>
+                This is an ongoing effort, the list will hopefully get larger over time !</p>
+            <div class="card mb-12" style="border: none;">
+                <div class="row g-0">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">OSCAR Corpus Downloader <a href="https://github.com/jtourille/oscar-corpus-downloader" target="_blank"><i class="fa-brands fa-github fab-custom"></i></a><a href="https://pypi.org/project/oscar-corpus-downloader/" target="_blank"><i class="fa-brands fa-python fab-custom"></i></a> </h5>
+                            <p class="card-text">
+                                Simple tool to download the OSCAR corpus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     </div>
 </main>
@@ -532,7 +571,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                Last update: October 2023
+                Last update: November 2023
             </div>
             <div class="col-md-8">
                 This website has been built using <a href="https://getbootstrap.com/">Bootstrap</a>.
@@ -541,12 +580,8 @@
     </div>
 </footer>
 
-
-<!--<script src="/theme/js/jquery-3.0.0.slim.min.js"></script>-->
 <script src="/theme/js/bootstrap.bundle.min.js"></script>
 <script src="/theme/js/feather.min.js"></script>
-<!--<script>-->
-<!--  feather.replace()-->
-<!--</script>-->
+
 </body>
 </html>
