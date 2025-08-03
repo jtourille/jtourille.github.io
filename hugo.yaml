@@ -11,7 +11,7 @@ params:
   profileMode:
     enabled: true
     title: "Julien Tourille" # optional default will be site title
-    subtitle: "NLP Research Engineer at EDF"
+    subtitle: "NLP Research Engineer at EDF R&D"
     imageUrl: "id.png" # optional
     imageTitle: "Julien Tourille" # optional
     imageWidth: 250 # custom size
