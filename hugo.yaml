@@ -1,0 +1,26 @@
+baseURL: https://jtourille.github.io/
+languageCode: en-us
+title: Julien Tourille
+theme: ["PaperMod"]
+menu:
+  main:
+    - name: About
+      url: about
+      weight: 5
+params:
+  profileMode:
+    enabled: true
+    title: "Julien Tourille" # optional default will be site title
+    subtitle: "NLP Research Engineer at EDF"
+    imageUrl: "id.png" # optional
+    imageTitle: "Julien Tourille" # optional
+    imageWidth: 250 # custom size
+    imageHeight: 250 # custom size
+
+  socialIcons: # optional
+    - name: "googlescholar"
+      url: "https://scholar.google.com/citations?hl=en&user=99ywuNMAAAAJ"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/julientourille"
+    - name: "strava"
+      url: "https://www.strava.com/athletes/11985625"
