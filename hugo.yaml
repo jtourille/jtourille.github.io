@@ -24,3 +24,7 @@ params:
       url: "https://www.linkedin.com/in/julientourille"
     - name: "strava"
       url: "https://www.strava.com/athletes/11985625"
+
+caches:
+  images:
+    dir: :cacheDir/images
