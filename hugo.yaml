@@ -31,3 +31,7 @@ params:
 caches:
   images:
     dir: :cacheDir/images
+
+services:
+  googleAnalytics:
+    id: G-613D6XHGWY
