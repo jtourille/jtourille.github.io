@@ -6,6 +6,10 @@
     padding: var(--gap);
 }
 
+a:has(> svg.icon-lucide) {
+    box-shadow: none !important;
+}
+
 .page-header h1 {
     font-size: 40px;
 }
