@@ -35,3 +35,8 @@ caches:
 services:
   googleAnalytics:
     id: G-613D6XHGWY
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
