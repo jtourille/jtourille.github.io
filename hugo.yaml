@@ -7,9 +7,12 @@ menu:
     - name: About
       url: about
       weight: 5
+    - name: Publications
+      url: publications
+      weight: 5
     - name: Internships
       url: internships
-      weight: 10
+      weight: 5
 params:
   profileMode:
     enabled: true
