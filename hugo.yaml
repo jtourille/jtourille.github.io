@@ -2,6 +2,7 @@ baseURL: https://jtourille.github.io/
 languageCode: en-us
 title: Julien Tourille
 theme: ["PaperMod"]
+enableGitInfo: true
 menu:
   main:
     - name: About
