@@ -1,0 +1,11 @@
+:root {
+    --main-width: 1000px;
+}
+
+.post-content table {
+    width: 100%;
+}
+
+.post-content table td:first-child {
+    white-space: nowrap;
+}
