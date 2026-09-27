@@ -16,15 +16,15 @@
 
 **[26]** Evan Dufraisse, Adrian Popescu, **Julien Tourille**, Armelle Brun, Olivier Hamon. <u>Combining Objective and Subjective Perspectives for Political News Understanding</u>. 10.48550/arXiv.2408.11174, 2024.
 
-**[25]** Robin Armingaud, Arthur Peuvot, Romaric Besançon, Olivier Ferret, Sondes Souihi, **Julien Tourille**. <u>CEA-List@EvalLLM2024 : prompter un très grand modèle de langue ou affiner un plus petit ?</u> Dans : *Atelier sur l'évaluation des modèles génératifs (LLM) et challence d'extraction d'information few-shot (EvalLLM)*. AMIAD, 2024.
+**[25]** Aboubacar Tuo, Romaric Besançon, Olivier Ferret, **Julien Tourille**. <u>Extraction des arguments d'événements à partir de peu d`exemples par méta-apprentissage</u>. Dans : *Actes de la 31ème Conférence sur le Traitement Automatique des Langues Naturelles (TALN)*. ATALA, 2024.
 
-**[24]** Aboubacar Tuo, Romaric Besançon, Olivier Ferret, **Julien Tourille**. <u>Extraction des arguments d'événements à partir de peu d`exemples par méta-apprentissage</u>. Dans : *Actes de la 31ème Conférence sur le Traitement Automatique des Langues Naturelles (TALN)*. ATALA, 2024.
+**[24]** Robin Armingaud, Arthur Peuvot, Romaric Besançon, Olivier Ferret, Sondes Souihi, **Julien Tourille**. <u>CEA-List@EvalLLM2024 : prompter un très grand modèle de langue ou affiner un plus petit ?</u> Dans : *Atelier sur l'évaluation des modèles génératifs (LLM) et challence d'extraction d'information few-shot (EvalLLM)*. AMIAD, 2024.
 
-**[23]** Aboubacar Tuo, Romaric Besançon, Olivier Ferret, **Julien Tourille**. <u>Few-Shot Event Argument Extraction Based on a Meta-Learning Approach</u>. Dans : *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Student Research Workshop) (NAACL-SRW)*. Association for Computational Linguistics.
+**[23]** Aboubacar Tuo, Romaric Besançon, Olivier Ferret, **Julien Tourille**. <u>Few-Shot Event Argument Extraction Based on a Meta-Learning Approach</u>. Dans : *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Student Research Workshop) (NAACL-SRW)*. Association for Computational Linguistics, 2024.
 
 **[22]** Frédérique Brin-Henry, Tiphaine Le Clercq de Lannoy, Romaric Besançon, Olivier Ferret, **Julien Tourille**, Bianca Vieru. <u>Annotation automatique des classes sémantiques dans des comptes rendus de bilans orthophoniques : intérêt de la coopération entre terrain clinique et de recherche</u>. Dans : *Actes de la conférence Terminologie & Ontologie: Théories et Applications (TOTh)*, 2024.
 
-**[21]** Paul Grimal, Hervé Le Borgne, Olivier Ferret, **Julien Tourille**. <u>TIAM -- A Metric for Evaluating Alignment in Text-to-Image Generation</u>. Dans : *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2024.
+**[21]** Paul Grimal, Hervé Le Borgne, Olivier Ferret, **Julien Tourille**. <u>TIAM – A Metric for Evaluating Alignment in Text-to-Image Generation</u>. Dans : *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)*, 2024.
 
 ## 2023
 
@@ -42,7 +42,7 @@
 
 ## 2022
 
-**[14]** Guilhem Piat, Nasredine Semmar, Alexandre Allauzen, Hassane Essafi, **Julien Tourille**. <u>Enriching Contextualized Representations with Biomedical Ontologies: Extending KnowBert to UMLS</u>. Dans : *Proceedings of the 2022 Computing Conference*. Springer.
+**[14]** Guilhem Piat, Nasredine Semmar, Alexandre Allauzen, Hassane Essafi, **Julien Tourille**. <u>Enriching Contextualized Representations with Biomedical Ontologies: Extending KnowBert to UMLS</u>. Dans : *Proceedings of the 2022 Computing Conference*. Springer, 2022.
 
 **[13]** Aboubacar Tuo, Romaric Besançon, Olivier Ferret, **Julien Tourille**. <u>Better Exploiting BERT for Few-shot Event Detection</u>. Dans : *Proceedings of the 27th International Conference on Natural Language and Information Systems (NLDB)*. Springer, 2022.
 
@@ -50,7 +50,7 @@
 
 **[11]** **Julien Tourille**, Babacar Sow, Adrian Popescu. <u>Automatic Detection of Bot-generated Tweets</u>. Dans : *Proceedings of the 1st Workshop on Multimedia AI against Disinformation*. Association for Computing Machinery, 2022.
 
-**[10]** Evan Dufraisse, Célina Treuillier, Armelle Brun, **Julien Tourille**, Sylvain Castagnos, Adrian Popescu. <u>Don't Burst Blindly: For a Better Use of Natural Language Processing to Fight Opinion Bubbles in News Recommendations</u>. Dans : *Proceedings of the LREC 2022 workshop on Natural Language Processing for Political Sciences*. European Language Resources Association.
+**[10]** Evan Dufraisse, Célina Treuillier, Armelle Brun, **Julien Tourille**, Sylvain Castagnos, Adrian Popescu. <u>Don't Burst Blindly: For a Better Use of Natural Language Processing to Fight Opinion Bubbles in News Recommendations</u>. Dans : *Proceedings of the LREC 2022 workshop on Natural Language Processing for Political Sciences*. European Language Resources Association, 2022.
 
 **[9]** Aboubacar Tuo, Romaric Besançon, Olivier Ferret, **Julien Tourille**. <u>Mieux utiliser BERT pour la détection d'évènements à partir de peu d'exemples</u>. Dans : *Actes de la 29e Conférence sur le Traitement Automatique des Langues Naturelles (TALN)*. ATALA, 2022.
 
@@ -77,4 +77,3 @@
 **[2]** **Julien Tourille**, Olivier Ferret, Aurélie Névéol, Xavier Tannier. <u>Extraction de relations temporelles dans des dossiers électroniques patient</u>. Dans : *Actes de la 23e Conférence sur le Traitement Automatique des Langues Naturelles (TALN)*. ATALA, 2016.
 
 **[1]** **Julien Tourille**, Olivier Ferret, Aurélie Névéol, Xavier Tannier. <u>LIMSI-COT at SemEval-2016 Task 12: Temporal relation identification using a pipeline of classifiers</u>. Dans : *Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval)*. Association for Computational Linguistics, 2016.
-
