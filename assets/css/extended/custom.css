@@ -14,6 +14,5 @@
 .post-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
     min-width: 0;
     padding: 4px 8px;
-    font-size: 0.9em;
     line-height: 1.4;
 }
