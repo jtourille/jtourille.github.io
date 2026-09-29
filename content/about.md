@@ -24,26 +24,26 @@ I am a Research Engineer in Natural Language Processing at EDF R&D [^1], where m
 | 2014 – 2015 | **MSc in Natural Language Processing** (Research & Development track) — Université Paris-Nanterre, France |
 
 **Doctoral thesis:** *Extracting Clinical Event Timelines: Temporal Information Extraction and Coreference Resolution in Electronic Health Records.*
-Supervised by Xavier Tannier (director), Aurélie Névéol and Olivier Ferret (co-supervisors).
-Examination committee: Philippe Muller (reviewer), Matthieu Roche (reviewer), Claire Nédellec, Sandra Bringay and Guergana Savova.
+Supervised by [Xavier Tannier](https://scholar.google.com/citations?hl=en&user=VIISH9gAAAAJ) (director), [Aurélie Névéol](https://scholar.google.com/citations?hl=en&user=8uAT7BgAAAAJ) and [Olivier Ferret](https://scholar.google.com/citations?hl=en&user=-mCQhtIAAAAJ) (co-supervisors).
+Examination committee: [Philippe Muller](https://scholar.google.com/citations?hl=en&user=yUHu-0UAAAAJ) (reviewer), [Matthieu Roche](https://scholar.google.com/citations?hl=en&user=az3JcdEAAAAJ) (reviewer), [Claire Nédellec](https://scholar.google.com/citations?hl=en&user=Iyc0WewAAAAJ), [Sandra Bringay](https://scholar.google.com/citations?hl=en&user=aemIV2sAAAAJ) and [Guergana Savova](https://scholar.google.com/citations?hl=en&user=9538Cr4AAAAJ).
 
 ## Supervision
 
 ### PhD Students
 
-| Period | Name | Research topics |
-|---|---|---|
-| 2023 – 2026 | Eve Sauvage | Representation learning, long document processing |
-| 2022 – 2025 | Paul Grimal | Domain adaptation, diffusion models |
-| 2021 – 2024 | Evan Dufraisse | Sentiment analysis, representation learning |
-| 2020 – 2023 | Aboubacar Tuo | Event extraction, few-shot learning |
-| 2019 – 2023 | Guilhem Piat | Named entity recognition, semantic annotation, biomedical NLP |
+| Period | Name | Role | Research topics |
+|---|---|---|---|
+| 2023 – 2026 | [Eve Sauvage](https://scholar.google.com/citations?hl=en&user=Clqp3AUAAAAJ) | Co-supervisor (dir. [Cyril Grouin](https://scholar.google.com/citations?hl=en&user=lsSlLh8AAAAJ)) | Representation learning, long document processing |
+| 2022 – 2024 | [Paul Grimal](https://scholar.google.com/citations?hl=en&user=0ZcYaHMAAAAJ) | Co-supervisor (dir. [Olivier Ferret](https://scholar.google.com/citations?hl=en&user=-mCQhtIAAAAJ)) | Domain adaptation, diffusion models |
+| 2021 – 2024 | [Evan Dufraisse](https://scholar.google.com/citations?hl=en&user=YeWwlxgAAAAJ) | Co-supervisor (dir. [Armelle Brun](https://scholar.google.com/citations?hl=en&user=QhjK8KoAAAAJ)) | Sentiment analysis, representation learning |
+| 2020 – 2023 | [Aboubacar Tuo](https://scholar.google.com/citations?hl=en&user=5fE1oWwAAAAJ) | Co-supervisor (dir. [Olivier Ferret](https://scholar.google.com/citations?hl=en&user=-mCQhtIAAAAJ)) | Event extraction, few-shot learning |
+| 2019 – 2023 | [Guilhem Piat](https://scholar.google.com/citations?hl=en&user=4plEJJYAAAAJ) | Co-supervisor (dir. [Alexandre Allauzen](https://scholar.google.com/citations?hl=en&user=B2-gXkkAAAAJ)) | Named entity recognition, semantic annotation, biomedical NLP |
 
 ### Postdoctoral Researchers
 
 | Period | Name | Research topics |
 |---|---|---|
-| 2023 – 2024 | Hugo Boulanger | Synthetic medical text generation |
+| 2023 – 2024 | [Hugo Boulanger](https://scholar.google.com/citations?hl=en&user=ee7oQskAAAAJ) | Synthetic medical text generation |
 
 ### Interns
 

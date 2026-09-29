@@ -1,0 +1,17 @@
+Xavier Tannier: https://scholar.google.com/citations?hl=en&user=VIISH9gAAAAJ
+Aurélie Névéol: https://scholar.google.com/citations?hl=en&user=8uAT7BgAAAAJ
+Olivier Ferret: https://scholar.google.com/citations?hl=en&user=-mCQhtIAAAAJ
+Philippe Muller: https://scholar.google.com/citations?hl=en&user=yUHu-0UAAAAJ
+Matthieu Roche: https://scholar.google.com/citations?hl=en&user=az3JcdEAAAAJ
+Claire Nédellec: https://scholar.google.com/citations?hl=en&user=Iyc0WewAAAAJ
+Sandra Bringay: https://scholar.google.com/citations?hl=en&user=aemIV2sAAAAJ
+Guergana Savova: https://scholar.google.com/citations?hl=en&user=9538Cr4AAAAJ
+Eve Sauvage: https://scholar.google.com/citations?hl=en&user=Clqp3AUAAAAJ
+Paul Grimal: https://scholar.google.com/citations?hl=en&user=0ZcYaHMAAAAJ
+Evan Dufraisse: https://scholar.google.com/citations?hl=en&user=YeWwlxgAAAAJ
+Aboubacar Tuo: https://scholar.google.com/citations?hl=en&user=5fE1oWwAAAAJ
+Guilhem Piat: https://scholar.google.com/citations?hl=en&user=4plEJJYAAAAJ
+Hugo Boulanger: https://scholar.google.com/citations?hl=en&user=ee7oQskAAAAJ
+Armelle Brun: https://scholar.google.com/citations?hl=en&user=QhjK8KoAAAAJ
+Alexandre Allauzen: https://scholar.google.com/citations?hl=en&user=B2-gXkkAAAAJ
+Cyril Grouin: https://scholar.google.com/citations?hl=en&user=lsSlLh8AAAAJ
